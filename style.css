@@ -1,9 +1,37 @@
+/*Fonts & Colors*/
 body {
-	background: rgb(230,230,230);
-	color: rgb(20,20,20);
-	font-size:16px;
-	font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
+  color: #2e3d4d;
+  background-color: rgb(49,62,76);
 }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  text-align: center;
+  padding: 50px;
+  margin-top: 5s0px;
+}
+h2 {
+	font-size:22px;
+	font-weight: bold;
+	height: 30px;
+}
+
+img {
+  height: 200px;
+  object-fit: cover;
+}
+
 p {
-	font-weight: lighter;
+	height: 50px;
+}
+/*Custom Designs*/
+
+.card {
+	background-color: white;
+	padding: 15px;
+	margin-top: 20px;
+	height: 400px;
+	text-align: center;
 }
