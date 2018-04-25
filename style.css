@@ -2,7 +2,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #2e3d4d;
-  background-color: rgb(49,62,76);
 }
 
 h1 {
@@ -27,11 +26,58 @@ p {
 	height: 50px;
 }
 /*Custom Designs*/
+#banner {
+	background-image: url('images/BG.jpg');
+	height: calc(100vh - 50px);
+	background-position: center bottom;
+	background-size: cover;
 
+}
 .card {
 	background-color: white;
 	padding: 15px;
 	margin-top: 20px;
 	height: 400px;
 	text-align: center;
+}
+
+.navbar {
+  background-color: #f7f7f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:50px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 40px;
+  border: 1px solid #5c5c5c;
+  margin-right: 30px
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  color: grey;
+  font-family: Metropolis;
+  text-decoration: none;
+  margin: 40px;
+  width: 70px;
+  font-size: 12px;
+}
+
+.items:hover {
+  color: black;
+}
+
+.Iwant {
+	height: 100vh;
 }
