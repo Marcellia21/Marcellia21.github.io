@@ -117,8 +117,9 @@ p {
 }
 
 .I-want {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #f7f7f8;
+	margin-bottom: 15px;
 }
 
 .card img{
@@ -128,7 +129,7 @@ p {
 	/*Around me section*/
 
 .around-me {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #e82a49;
 }
 
